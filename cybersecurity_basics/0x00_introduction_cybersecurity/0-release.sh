@@ -1,2 +1,2 @@
 #!/bin/bash
-grep "^ID=" /etc/lsb-release | cut -d'=' -f2
+grep "^ID=" lsb-release | cut -d'=' -f2
